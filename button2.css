@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+
+.cta2 {
+    display: flex;
+    padding: 1% 1.5%;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 180%;
+    color: white;
+    background: #6225E6;
+    transition: 1s;
+    box-shadow: 0.375rem 0.375rem black;
+    transform: skewX(-15deg);
+
+}
+
+.cta2:focus {
+   outline: none; 
+}
+
+.cta2:hover {
+    transition: 0.5s;
+    box-shadow: 0.625rem 0.625rem #FBC638;
+}
+  
+/* .cta2:hover path.three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.cta2:hover path.one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.cta2:hover path.two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+} */
+
+/* SVG animations */
+
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: #FBC638;
+    }
+    100% {
+        fill: white;
+    }
+}
+
+/* media queries */
+
+@media screen and (max-width: 505px){
+    .cta2{
+        font-size: 150%;
+    }
+}
+@media screen and (max-width: 330px){
+    .cta2{
+        font-size: 130%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .cta2{
+        font-size: 350%;
+    }
+}
