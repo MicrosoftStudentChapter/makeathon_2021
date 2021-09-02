@@ -1,94 +1,118 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
-
-
-
-.wrapper {
-  display: flex;
-  justify-content: center;
-  background: transparent;
-  margin-top: 5%;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h2{
-    font-family: 'Poppins', sans-serif;
-    color: chartreuse; 
+body{
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.button{
     position: relative;
-    left: 40.625rem;
-    size: 200%;
-}
-.cta1 {
-    display: flex;
-    padding: 1% 1.5%;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 0 auto;
+    margin-left: 650px;
+    color: #03e9f4;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 180%;
-    color: white;
-    background: #6225E6;
-    transition: 1s;
-    box-shadow: 0.375rem 0.375rem black;
-    transform: skewX(-15deg);
-    margin-right: 1.25rem;
-}
-
-.text{
-    background: transparent;
-}
-
-.cta1:focus {
-   outline: none; 
-}
-
-.cta1:hover {
+    text-transform: uppercase;
     transition: 0.5s;
-    box-shadow: 0.625rem 0.625rem #38defb;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+   
 }
-
-/*****SVG*****/
-
-
-.cta1:hover path.three {
-    animation: color_anim 1s infinite 0.2s;
+.button:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
 }
-
-.cta1:hover path.one {
-    transform: translateX(0%);
-    animation: color_anim 1s infinite 0.6s;
+.button:nth-child(1){
+    filter: hue-rotate(0deg);
 }
-
-.cta1:hover path.two {
-    transform: translateX(0%);
-    animation: color_anim 1s infinite 0.4s;
+.button:nth-child(2){
+    filter: hue-rotate(0deg);
 }
-
-/* SVG animations */
-
-@keyframes color_anim {
-    0% {
-        fill: white;
+.button span{
+    position: absolute;
+    display: block;
+}
+.button span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
     }
-    50% {
-        fill: #FBC638;
-    }
-    100% {
-        fill: white;
-    }
-}
-
-/* media queries */
-
-@media screen and (max-width: 505px){
-    .cta1{
-        font-size: 150%;
-    }
-}
-
-@media screen and (max-width: 330px){
-    .cta1{
-        font-size: 130%;
+    50%,100%{
+        left: 100%;
     }
 }
+.button span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+.button span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
-    .cta1{
-        font-size: 350%;
+
+.button span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
     }
 }
