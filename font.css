@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight:900;
+}
+
+body{
+  background: bla;
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 60rem;
+    height: 18.75rem;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+.icons {
+    z-index: 999;
+    position: fixed;
+    top: 40%;
+    left: 0%;
+    width: 11.25rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .icons a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.25rem;
+    font-size: 1.188rem;
+    font-family: Oswald, sans-serif;
+    margin: 0.063rem;
+    text-align: right;
+    border-radius: 0rem 3.125rem 3.125rem 0rem;
+    transform: translate(-7.438rem, 0rem);
+    transition: 1s;
+  }
+  .linkedin {
+    background-color: #0e76a8;
+    color: white;
+  }
+  .github {
+    background-color: black;
+    color: white;
+  }
+  .instagram {
+    background-color: #dd2a7b;
+    color: white;
+  }
+  .icons i{
+  font-size: 110%;
+  }
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #ff00b7;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #fcc204;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #94bd00;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #08e6e6;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #51ff00;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
