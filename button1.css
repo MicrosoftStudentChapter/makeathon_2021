@@ -18,7 +18,22 @@ body{
     display: inline-block;
     padding: 25px 30px;
     margin: 0 auto;
-    margin-left: 650px;
+    margin-left: 580px;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+   
+}
+.button2{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 0 auto;
+    
     color: #03e9f4;
     text-decoration: none;
     text-transform: uppercase;
