@@ -32,6 +32,7 @@ h1{
     /* background: transparent; */
     
     background: -webkit-linear-gradient(#f5FCFF, #7AD7F0);
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
