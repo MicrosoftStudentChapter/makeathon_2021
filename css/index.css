@@ -36,6 +36,74 @@ h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+footer {
+    margin-top: 27em !important;
+    text-align: center;
+    padding: 2em 2em 0em 2em !important;
+    background-color: #141c27;
+    color: white;
+    position: relative;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#social {
+    justify-content: start;
+    text-align: left;
+    padding-left: 0;
+    list-style: none;
+    display:inline-flex;
+    
+}
+.socials{
+    margin: 0.625rem;
+}
+
+.back-to-top {
+    width: 7rem;
+    height: 7rem;
+    background-color: #141c27;
+    position: absolute;
+    top: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+
+    text-decoration: none;
+}
+
+.back-to-top i {
+    display: block;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-bottom: 0;
+    animation: up 2s infinite;
+    text-decoration: none;
+}
+
+.footer-content {
+    /*overflow:hidden*/
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.footer-content h4 {
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 1.7rem;
+
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.footer-content h5 {
+    color: aliceblue;
+    margin-bottom: 1rem;
+}
 
 @media screen and (max-width: 505px){
     h1{
