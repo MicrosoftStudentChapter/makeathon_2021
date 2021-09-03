@@ -1,13 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 html, body{
-  height: 100%;
+  height: 150vh;
   font-weight:900;
 }
 
 body{
-  background: bla;
-  font-family: Arial;
+  background-size: cover;
+    font-family: Arial;
 }
 
 svg {
@@ -16,7 +16,7 @@ svg {
     width: 60rem;
     height: 18.75rem;
     margin: 0 auto;
-  margin-top: -10%;
+  margin-top: -15%;
     
 }
 
@@ -96,10 +96,10 @@ svg {
 	100% {stroke-dashoffset: -35%;}
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:800px) and (min-width:456px) {
   h2 {
     margin-bottom: 5%;
-    margin-top: -30%;
+    margin-top: -20%;
     position: relative;
     font-family: Wynford, sans-serif;
     letter-spacing: 0.313rem;
@@ -112,5 +112,20 @@ svg {
 }
   
 }
-
+@media screen and (max-width:455px) {
+  h2 {
+    margin-bottom: 5%;
+    margin-top: -40% !important;
+    position: relative;
+    font-family: Wynford, sans-serif;
+    letter-spacing: 0.313rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(top, rgb(245, 252, 255), rgb(122, 215, 240)) text;
+}
+  
+}
 
