@@ -16,7 +16,8 @@ svg {
     width: 60rem;
     height: 18.75rem;
     margin: 0 auto;
-    margin-top: -30px;
+  margin-top: -10%;
+    
 }
 
 .icons {
@@ -95,5 +96,21 @@ svg {
 	100% {stroke-dashoffset: -35%;}
 }
 
+@media screen and (max-width:800px) {
+  h2 {
+    margin-bottom: 5%;
+    margin-top: -30%;
+    position: relative;
+    font-family: Wynford, sans-serif;
+    letter-spacing: 0.313rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(top, rgb(245, 252, 255), rgb(122, 215, 240)) text;
+}
+  
+}
 
 
