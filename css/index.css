@@ -31,7 +31,7 @@ h1{
     font-size: 700%;
     /* background: transparent; */
     
-    background: -webkit-linear-gradient(#f5FCFF, #7AD7F0);
+    background: -webkit-linear-gradient(#f5FCFF, #7AD7F0, #4335be);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

@@ -76,3 +76,33 @@
        font-size:4rem;
    }
 }  
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+   h2{
+       font-size: x-large;
+   }
+}  
+
+h2{
+  
+    margin-bottom: 5%;
+    position: relative;
+    font-family: 'Wynford', sans-serif;
+    letter-spacing: 0.313rem;  
+      text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10%; */
+    font-size: 300%;
+    /* background: transparent; */
+    
+    background: -webkit-linear-gradient(#f5FCFF, #7AD7F0);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
