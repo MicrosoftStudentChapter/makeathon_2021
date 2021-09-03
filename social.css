@@ -1,16 +1,20 @@
 .social-menu ul {
     position: absolute;
-    right: 0.1rem;
-    top: 90%;
+    /* right: 50%;
+    top: 90%; */
     transform: translate(-50%, -50%);
-    padding: 0;
+    /* padding: 0;
     margin: 0;
-    display: flex;
+    display: flex; */
+    margin-left: 5%;
     position: fixed;
+    z-index: 999;
+   
 }
 .social-menu ul li {
     list-style: none;
     margin: 0 0.625rem;
+    margin-top: 20%;
 }
 .social-menu ul li .fa {
     color: #000000;
@@ -49,3 +53,32 @@
 .social-menu ul li:nth-child(4) a:hover {
     background-color: #0077B5;
 }
+
+@media screen and (max-width:520px)  {
+
+    .social-menu ul li a{
+      height: 2.5rem !important;
+      width: 2.5rem !important;
+    }
+    .social-menu ul li .fa{
+        /* margin: 10%; */
+        margin-bottom: 10%;
+        margin-top: -10%;
+    }
+     .social-menu ul li .fab{
+        /* margin: 10%; */
+        margin-bottom: 10%;
+        margin-top: -8%;
+    }
+    .social-menu ul{
+        
+        margin-top:20%;
+    }
+
+}
+
+#dis{
+    padding-top: 20%;
+    color: black;
+}
+

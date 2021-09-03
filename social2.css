@@ -1,0 +1,73 @@
+.discord {
+    background-color: #7289da;
+    color: white;
+}
+
+.icons {
+    z-index: 99;
+    position: fixed;
+    top: 40%;
+    left: 0%;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 9px;
+    font-size: 19px;
+    font-family: Oswald, sans-serif;
+    margin: 1px;
+    text-align: right;
+    border-radius: 0px 50px 50px 0px;
+    transform: translate(-139px, 0px);
+    transition: 1s;
+}
+.icons a:hover {
+    transform: translate(-100px,0px);
+    color: black;
+}
+
+.icons a i {
+    margin-left: 0.8em;
+    margin-right: 0.5em;
+}
+
+.facebook {
+    background-color: darkslateblue;
+    color: white;
+}
+
+.youtube {
+    background-color: red;
+    color: white;
+}
+
+.twitter {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.instagram {
+    background-color: #dd2a7b;
+    color: white;
+}
+
+.linkedin {
+    background-color: #0e76a8;
+    color: white;
+}
+#social_icons {
+    padding: 0 2em 0 2em;
+}
+
+#social_icons i {
+    color: aliceblue;
+}
+
+#social_icons i:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+}

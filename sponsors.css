@@ -60,3 +60,19 @@
         margin-left: 10%;
     }
 }  
+
+@media screen and (max-width: 300px){
+
+    #sponsor-list{
+        margin-left: 6%;
+    }
+    #sponsor-heading{
+       font-size:3rem;
+   }
+}  
+@media screen and (max-width: 370px) and (min-width:300px){
+
+   #sponsor-heading{
+       font-size:4rem;
+   }
+}  
