@@ -11,10 +11,10 @@ body{
 }
 
 svg {
-    display: block;
+  display: block;
     font: 10.5em 'Montserrat';
-    width: 60rem;
-    height: 18.75rem;
+    width: 70%;
+    height: 50%;
     margin: 0 auto;
   margin-top: -10%;
     
@@ -110,6 +110,9 @@ svg {
     -webkit-text-fill-color: transparent;
     background: -webkit-linear-gradient(top, rgb(245, 252, 255), rgb(122, 215, 240)) text;
 }
+svg {
+  width: 95%;
+}
   
 }
 @media screen and (max-width:455px) {
@@ -126,6 +129,15 @@ svg {
     -webkit-text-fill-color: transparent;
     background: -webkit-linear-gradient(top, rgb(245, 252, 255), rgb(122, 215, 240)) text;
 }
+svg {
+  width: 95%;
+  height: 60%;
+  margin-top: -60%;
+}
   
 }
-
+@media screen and (min-width:400px) and (max-width:454){
+  svg {
+    height: 80%;
+  }
+}
