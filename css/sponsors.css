@@ -17,9 +17,11 @@
     font-size: 5rem;
     text-align: center;
     padding-top: 5%;
+    margin-top: 0;
 }
 #sponsor-list{
     margin-left: 10%;
+    margin-bottom: 6%;
 }
 .row{
     text-align: center;
@@ -27,6 +29,7 @@
 .col-sm{
     display: flex;
     align-items: center;
+    padding: 10px;
 
 }
 @media screen and (max-width: 505px){
