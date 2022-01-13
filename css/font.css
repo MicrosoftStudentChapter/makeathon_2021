@@ -67,6 +67,7 @@ svg {
     animation: stroke-offset 5.5s infinite linear;
 }
 
+
 .text-copy:nth-child(1){
 	stroke: #ff00b7;
 	animation-delay: -1;
