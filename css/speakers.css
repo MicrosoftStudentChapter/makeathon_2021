@@ -9,7 +9,10 @@
 
 #speakers-heading{
     font-family: 'Wynford', sans-serif;
-    color: #191970;;
+    background: -webkit-linear-gradient(#f5FCFF, black, #222296);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 470%;
     text-align: center; 
     padding-top: 5%;
@@ -21,4 +24,5 @@
         font-size:3rem;
     }
 }
+
 

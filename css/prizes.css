@@ -17,9 +17,11 @@
   margin-top: 0;
 }
 
-
+.link{
+  width: 8rem;
+}
 .link:hover{
-  animation: wobble 2s ;
+  animation: wobble 1s ;
 }
 
 

@@ -1,179 +1,347 @@
-.bouncing-box{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+/* Bouncing Animation Stuff ---------------------------------------------------------------------- */
+
+.bouncing-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 12rem;
 }
-.bouncing-box-prizes{
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  align-items:center;
+.bouncing-box-prizes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding-top: 7rem;
 }
 
 .bouncing-text {
-    position: relative;
-    display: flex;
-    font-size: 70px;
-    font-family: arial black; 
-    letter-spacing: 0.6rem; 
+  position: relative;
+  display: flex;
+  font-size: 70px;
+  font-family: arial black;
+  letter-spacing: 0.6rem;
+}
+.bouncing-text-prizes {
+  position: relative;
+  display: flex;
+  margin-top: 8%;
+  font-size: 70px;
+  font-family: arial black;
+  letter-spacing: 0.6rem;
 }
 
-.c, .o, .m, .i, .n, .g,.s,.o1,.o2,.n2 {
-color: #4cc9f0;
-text-shadow: 0 3px #4361ee, 0 5px #4361ee, 0 7px #4361ee;
+.c,
+.o,
+.m,
+.i,
+.n,
+.g,
+.s,
+.o1,
+.o2,
+.n1 {
+  color: #4cc9f0;
+  text-shadow: 0 3px #4361ee, 0 5px #4361ee, 0 7px #4361ee;
+  font-family: "Mochiy Pop P One", sans-serif;
 }
 
-.dark-font{
-    color: #2d2da7ee;
-    text-shadow: 0 3px #21da6e99, 0 5px #21da6e99, 0 7px #21da6e99;
+.t,
+.o3,
+.b,
+.e,
+.a,
+.n2,
+.n3,
+.o4,
+.u,
+.n4,
+.c1,
+.e1,
+.a1,
+.b1,
+.d {
+  color: #4cc9f0;
+  text-shadow: 0 3px #4361ee, 0 5px #4361ee, 0 7px #4361ee;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.dark-font {
+  color: #2d2da7ee;
+  text-shadow: 0 3px #21da6e99, 0 5px #21da6e99, 0 7px #21da6e99;
 }
 
 @keyframes bounce {
-    0%   { transform: scale(1,1) translateY(0); }
-    10%  { transform: scale(1.1,.9) translateY(0); }
-    30%  { transform: scale(.9,1.1)   translateY(-55px);}
-    50%  { transform: scale(1.05,.95) translateY(0); }
-    58%  { transform: scale(1,1) translateY(-7px); }
-    65%  { transform: scale(1,1) translateY(0);}
-    100% { transform: scale(1,1) translateY(0);}
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-55px);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  58% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  65% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
 }
 
 .c {
-animation: bounce 2s ease infinite;
+  animation: bounce 2s ease infinite;
 }
 
 .o {
-animation: bounce 2s ease infinite .1s;
+  animation: bounce 2s ease infinite 0.1s;
 }
 
 .m {
-animation: bounce 2s ease infinite .2s;
+  animation: bounce 2s ease infinite 0.2s;
 }
 
 .i {
-animation: bounce 2s ease infinite .3s;
+  animation: bounce 2s ease infinite 0.3s;
 }
 
 .n {
-animation: bounce 2s ease infinite .4s;
+  animation: bounce 2s ease infinite 0.4s;
 }
 
 .g {
-animation: bounce 2s ease infinite .5s;
+  animation: bounce 2s ease infinite 0.5s;
 }
 .s {
-animation: bounce 2s ease infinite .1s;
+  animation: bounce 2s ease infinite 0.1s;
 }
 .o1 {
-animation: bounce 2s ease infinite .2s;
+  animation: bounce 2s ease infinite 0.2s;
 }
 .o2 {
-animation: bounce 2s ease infinite .3s;
+  animation: bounce 2s ease infinite 0.3s;
 }
+.n1 {
+  animation: bounce 2s ease infinite 0.4s;
+}
+
+/* ------------------------------------------------------------- */
+
+.t {
+  animation: bounce 2s ease infinite;
+}
+
+.b1 {
+  animation: bounce 2s ease infinite 0.1s;
+}
+.a1 {
+  animation: bounce 2s ease infinite 0.2s;
+}
+
+.o3 {
+  animation: bounce 2s ease infinite 0.1s;
+}
+
+.b {
+  animation: bounce 2s ease infinite;
+}
+
+.e {
+  animation: bounce 2s ease infinite 0.1s;
+}
+
+.a {
+  animation: bounce 2s ease infinite;
+}
+
 .n2 {
-animation: bounce 2s ease infinite .4s;
+  animation: bounce 2s ease infinite 0.1s;
+}
+.n3 {
+  animation: bounce 2s ease infinite 0.2s;
+}
+.o4 {
+  animation: bounce 2s ease infinite 0.3s;
+}
+.u {
+  animation: bounce 2s ease infinite 0.4s;
+}
+.n4 {
+  animation: bounce 2s ease infinite 0.5s;
+}
+.c1 {
+  animation: bounce 2s ease infinite 0.6s;
+}
+.e1 {
+  animation: bounce 2s ease infinite 0.7s;
+}
+.d {
+  animation: bounce 2s ease infinite 0.8s;
+}
+.t {
+  animation: bounce 2s ease infinite 0.1s;
+}
+.b1 {
+  animation: bounce 2s ease infinite 0.2s;
+}
+.a1 {
+  animation: bounce 2s ease infinite 0.3s;
 }
 
-.bouncing-text:before, .bouncing-text:after {
-    content:"";
-    position: absolute;
-    background-color: rgba(0,0,0,0.4);
-    width: 50px;
-    height:5px;
-    border-radius:50%;
-    top:82px;
-    z-index:-1;
-  }
-  
-  .shadow, .shadow-two {
-    position: absolute;
-    top:82px;
-    z-index:-1;
-  }
-  
-  .shadow:before, .shadow:after, .shadow-two:before, .shadow-two:after {
-    content:"";
-    position: absolute;
-    background-color: rgba(0,0,0,0.4);
-    width: 50px;
-    height:5px;
-    border-radius:50%;
-    top:0;  
-  }
-  
-  .bouncing-text:before {
-    left:0;
-    animation: scale 1s linear infinite;
-  }
-  
-  @keyframes scale {
-    0% {transform: scaleX(1);}
-    25% {transform: scaleX(0.4);}
-    50% {transform: scaleX(1);}
-    75% {transform: scaleX(0.9);}
-    100% {transform: scaleX(1);}
-  }
-  
-  .bouncing-text:after {
-    left: 57px;
-    animation: scale 1s linear infinite .1s;
-  }
-  
-  .shadow:before {
-    left: 116px;
-    animation: scale 1s linear infinite .2s;
-  }
-  
-  .shadow:after {
-    left:175px;
-    animation: scale 1s linear infinite .3s;
-  }
-  
-  .shadow-two:before {
-    left:232px;
-    animation: scale 1s linear infinite .4s;
-  }
-  
-  .shadow-two:after {
-    left: 285px;
-    animation: scale 1s linear infinite .5s;
-  }
+/* ---------------------------------- */
 
-  @media screen and (max-width: 576px) {
-    .bouncing-text{
-      font-size:1.5rem;
-    }
-    .bouncing-box{
-      padding-top : 20%;
-      margin-left:2rem;
-      margin-right:2rem;
-    }
-    .bouncing-box-prizes{
-      flex-direction: column;
-      padding-top : 20%;
-      margin-left:2rem;
-      margin-right:2rem;
-    }
-    .link{
-      padding-bottom: 3rem;
-    }
+.bouncing-text:before,
+.bouncing-text:after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 50px;
+  height: 5px;
+  border-radius: 50%;
+  top: 82px;
+  z-index: -1;
+}
+
+.shadow,
+.shadow-two {
+  position: absolute;
+  top: 82px;
+  z-index: -1;
+}
+
+.shadow:before,
+.shadow:after,
+.shadow-two:before,
+.shadow-two:after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 50px;
+  height: 5px;
+  border-radius: 50%;
+  top: 0;
+}
+
+.bouncing-text:before {
+  left: 0;
+  animation: scale 1s linear infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scaleX(1);
   }
-  @media screen and (min-width: 576px) and (max-width:768px) {
-    .bouncing-text{
-      font-size:2.5rem;
-    }
-    .bouncing-box{
-      padding-top : 20%;
-      margin-left:2rem;
-      margin-right:2rem;
-    }
+  25% {
+    transform: scaleX(0.4);
   }
-  
-@media screen and (min-width: 768px) and (max-width: 1024px){
-    .bouncing-text{
-        margin-bottom: 70%;
-    }
+  50% {
+    transform: scaleX(1);
+  }
+  75% {
+    transform: scaleX(0.9);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.bouncing-text:after {
+  left: 57px;
+  animation: scale 1s linear infinite 0.1s;
+}
+
+.shadow:before {
+  left: 116px;
+  animation: scale 1s linear infinite 0.2s;
+}
+
+.shadow:after {
+  left: 175px;
+  animation: scale 1s linear infinite 0.3s;
+}
+
+.shadow-two:before {
+  left: 232px;
+  animation: scale 1s linear infinite 0.4s;
+}
+
+.shadow-two:after {
+  left: 285px;
+  animation: scale 1s linear infinite 0.5s;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+  .bouncing-text {
+    font-size: 1.5rem;
+  }
+  .bouncing-box {
+    padding-top: 20%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .bouncing-text-prizes {
+    font-size: 0.8rem;
+  }
+  .link {
+    width: 4rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .bouncing-text {
+    font-size: 2.5rem;
+  }
+  .bouncing-box-prizes {
+    flex-direction: row;
+    margin-top: 8%;
+  }
+  .bouncing-box {
+    padding-top: 20%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .bouncing-text-prizes {
+    font-size: 0.8rem;
+  }
+  .link {
+    width: 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .bouncing-box-prizes {
+    flex-direction: row;
+    margin-top: 8%;
+  }
+  .bouncing-text {
+    margin-bottom: 70%;
+  }
+  .bouncing-box-prizes {
+    flex-direction: column;
+  }
+}
+
+.small-prizes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.small-text-prizes {
+  display: flex;
+  flex-direction: row;
+  padding-top: 6rem;
+  font-size: 3rem;
 }

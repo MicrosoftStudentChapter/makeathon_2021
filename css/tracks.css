@@ -7,21 +7,20 @@
     overflow-x: hidden;
 }
 
-
-
 #tracks-heading{
-    font-family:'Wynford' ,sans-serif;
-    color: #0E2A47;
-    font-size: 5rem;
-    text-align: center;
+    font-family: 'Wynford', sans-serif;
+    background: -webkit-linear-gradient(#f5FCFF, black, #222296);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 470%;
+    text-align: center; 
     padding-top: 5%;
     margin-top: 0;
 }
 
-@media screen and (max-width: 576){
+@media screen and (max-width: 576px){
     #tracks-heading{
         font-size:3rem;
     }
 }
-
-
