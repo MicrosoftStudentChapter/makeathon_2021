@@ -87,13 +87,10 @@ a {
 
 .footer-content {
     /*overflow:hidden*/
-  
     margin-top: 0;
     text-decoration: none;
 }
-.footer_content {
-    text-align: justify;
-}
+
 .footer-content h4 {
     text-decoration: none;
     cursor: pointer;
