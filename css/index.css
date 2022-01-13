@@ -104,9 +104,6 @@ a {
     color: aliceblue;
     margin-bottom: 1rem;
 }
-.footer_content{
-text-align: justify;
-}
 
 @media screen and (max-width: 505px){
     h1{
