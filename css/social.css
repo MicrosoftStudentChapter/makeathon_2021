@@ -59,15 +59,15 @@
     background-color: #0e76a8;
     color: white;
 }
-#social_icons {
+#social {
     padding: 0 2em 0 2em;
 }
 
-#social_icons i {
+#social {
     color: aliceblue;
 }
 
-#social_icons i:hover {
+#social :hover {
     transition: 0.4s;
     transform: scale(1.1);
 }
