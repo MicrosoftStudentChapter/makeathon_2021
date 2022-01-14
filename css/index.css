@@ -125,3 +125,8 @@ a {
         margin-bottom: 10%;
     }
 }  
+
+.img-thumbnail{
+    border:0;
+    background: transparent;
+}

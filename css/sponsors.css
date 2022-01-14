@@ -24,7 +24,8 @@
     margin-top: 0;
 }
 #sponsor-list{
-    margin-left: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
     margin-bottom: 6%;
 }
 .row{
@@ -61,7 +62,7 @@
         margin-left: 5%;
     }
 }  
-@media screen and (min-width: 1024px){
+@media screen and (max-width: 1024px){
 
     #sponsor-list{
         margin-left: 10%;
@@ -113,4 +114,67 @@ h2{
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+/* .sponsor-image-box{
+    margin:50px;
+    width: 250px;
+    height: 190px;
+} */
+
+/* Classes for Sponsor image boxes and their row-wise alignment in the flex box */
+
+.sponsor-img-box{
+    flex: 0 0 calc(33.33% - 30px);   /* flex-basis adjustment for margin */
+    flex-direction: column;
+    margin: 5px;
+    text-align: center;
+}
+
+.sponsor-img-box-4{
+    flex: 0 0 calc(25% - 30px);   /* flex-basis adjustment for margin */
+    flex-direction: column;
+    margin: 5px;
+    text-align: center;
+}
+
+.img-size{
+    width: 50%;
+}
+
+.sponsors-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.fix-margin1{
+    margin-top: 15%;
+}
+.fix-margin2{
+    margin-top: 17%;
+}
+
+@media screen and (max-width:1024px){
+    .sponsors-box{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center ;
+    }
+    .sponsor-img-box{
+        flex: 0 0 calc(33.33% - 30px);   /* flex-basis adjustment for margin */
+        flex-direction: column;
+        margin: 5px;
+        margin-bottom: 25%;
+        text-align: center;
+    }
+    .sponsor-img-box-4{
+        flex: 0 0 calc(25% - 30px);   /* flex-basis adjustment for margin */
+        flex-direction: column;
+        margin: 5px;
+        margin-bottom: 25%;
+        text-align: center;
+    }
 }
