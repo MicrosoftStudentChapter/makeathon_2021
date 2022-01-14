@@ -6,10 +6,9 @@
     /* background-repeat: no-repeat;
     background-size: auto; */
 }
-.container{
+.container1{
     display: flex;
     flex-wrap:nowrap;
-   
 }
 .about_heading{
     font-family: 'Wynford', sans-serif;
@@ -42,7 +41,7 @@
         font-size: 340%;
         margin-bottom: 5%;
     }
-    .container {
+    .container1 {
         flex-wrap: wrap;
     
 
@@ -64,7 +63,7 @@
     .about_heading{
         margin-bottom: 20px;
     }
-    .container {
+    .container1 {
         flex-wrap: wrap;
         justify-content: center;
 
