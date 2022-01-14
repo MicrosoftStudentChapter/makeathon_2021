@@ -18,7 +18,8 @@ body{
     display: inline-block;
     padding: 25px 30px;
     margin: 0 auto;
-     margin-right: 5%;
+    margin-left: 0.7%;
+    margin-right: 5%;
     
     color: #03e9f4;
     text-decoration: none;
@@ -34,18 +35,31 @@ body{
     display: inline-block;
     padding: 25px 30px;
     margin: 0 auto;
-    
+    margin-right: 5%;
     color: #03e9f4;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
     letter-spacing: 4px;
     overflow: hidden;
-   
-    
- 
-   
+
 }
+
+.button3{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 0 auto;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+
+}
+
+
 .button:hover{
     background: #03e9f4;
     color: #050801;
@@ -132,5 +146,22 @@ body{
     }
     50%,100%{
         bottom: 100%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .button{
+        position: relative;
+        display: inline-block;
+        padding: 25px 30px;
+        margin: 0 auto;
+        margin-right: 5%;
+        
+        color: #03e9f4;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
     }
 }
