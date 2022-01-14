@@ -148,3 +148,20 @@ body{
         bottom: 100%;
     }
 }
+
+@media screen and (max-width: 576px){
+    .button{
+        position: relative;
+        display: inline-block;
+        padding: 25px 30px;
+        margin: 0 auto;
+        margin-right: 5%;
+        
+        color: #03e9f4;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+    }
+}
