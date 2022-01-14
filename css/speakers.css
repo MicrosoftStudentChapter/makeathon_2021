@@ -5,6 +5,7 @@
     background-size: cover;
     background-repeat: none;
     overflow-x: hidden;
+    position: relative;
 }
 
 #speakers-heading{

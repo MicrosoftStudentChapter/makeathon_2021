@@ -1,20 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
 
-/* Bouncing Animation Stuff ---------------------------------------------------------------------- */
-
+/* Bouncing Animation Stuff - Please ise mat chedna bohot ro roke bani hai ---------------------------------------------------------------------- */
+/* It is very delicate */
 .bouncing-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 12rem;
-}
-.bouncing-box-prizes {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 7rem;
 }
 
 .bouncing-text {
@@ -23,6 +16,14 @@
   font-size: 70px;
   font-family: arial black;
   letter-spacing: 0.6rem;
+}
+/* For prizes sections */
+.bouncing-box-prizes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7rem;
 }
 .bouncing-text-prizes {
   position: relative;
@@ -278,6 +279,8 @@
   animation: scale 1s linear infinite 0.5s;
 }
 
+/*_________________________________________________________________________________________________________ */
+
 @media screen and (max-width: 576px) {
   body {
     overflow-x: hidden;
@@ -286,9 +289,13 @@
     font-size: 1.5rem;
   }
   .bouncing-box {
-    padding-top: 20%;
+    /* padding-top: 20%;
     margin-left: 2rem;
-    margin-right: 2rem;
+    margin-right: 2rem; */
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 20%;
   }
   .bouncing-text-prizes {
     font-size: 0.8rem;
@@ -332,16 +339,17 @@
   }
 }
 
+
+/* ------------------------------------------------------------------------------- */
+
 .small-prizes {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  text-align: center;
+  position: absolute;
+  left: 40%;top: 40%;
 }
 .small-text-prizes {
   display: flex;
   flex-direction: row;
-  padding-top: 6rem;
   font-size: 3rem;
+  margin-top: 10%;
 }
