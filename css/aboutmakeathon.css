@@ -9,6 +9,7 @@
 .container{
     display: flex;
     flex-wrap:nowrap;
+   
 }
 .about_heading{
     font-family: 'Wynford', sans-serif;
@@ -19,19 +20,22 @@
     margin-top: 0;
     padding-bottom: 5%;
 }
-.aboutimage img{
+/* .aboutimage img{
     width: 400px;
     height: auto; 
     margin-right:1%;
     flex : 1;  
-}
+} */
 .aboutmakeathon p{
     font-family: 'Cairo', sans-serif;
     flex: 1;
     font-size: 110%;
     word-spacing: 10px;
     color:#95dff3;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
+    padding:20px;
+     border: aqua 2px solid;
+     border-radius: 10px;
 }
 @media screen and (max-width: 760px){
     .about_heading{
@@ -40,17 +44,18 @@
     }
     .container {
         flex-wrap: wrap;
+    
 
     }
-    .aboutimage img{
+    /* .aboutimage img{
         width: 90%;
-        /* justify-content: center; */
         padding-left: 14%;
         padding-bottom: 20px;
-    }
+    } */
     .aboutmakeathon{
         font-size: 70%;
         padding-left: 10px;
+        margin-bottom: 10%;
     }
     
 }
@@ -64,16 +69,16 @@
         justify-content: center;
 
     }
-    .aboutimage img{
+    /* .aboutimage img{
         margin-bottom : 20px;
-    }
+    } */
 
 } 
 @media screen and (min-width:1392px){
-    .aboutimage img{
+    /* .aboutimage img{
         margin-bottom: 100px;
         padding-top:70px;
-    }
+    } */
     .about_heading{
         font-size: 7rem;
     }
