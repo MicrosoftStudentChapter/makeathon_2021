@@ -122,9 +122,6 @@ a {
 @media screen and (min-width: 768px) and (max-width: 1024px){
     h1{
         font-size: 550%;
-        margin-bottom: 30%;
+        margin-bottom: 10%;
     }
 }  
-
-
-
