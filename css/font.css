@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html, body{
   height: 150vh;
@@ -66,6 +66,7 @@ svg {
     stroke-dashoffset: 0%;
     animation: stroke-offset 5.5s infinite linear;
 }
+
 
 .text-copy:nth-child(1){
 	stroke: #ff00b7;
