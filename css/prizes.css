@@ -7,6 +7,7 @@
   min-height: 100vh;
   min-width: 100wh;
   background-size: cover;
+  text-align: center;
   background-repeat: none;
   overflow-x: hidden;
   position: relative;
@@ -39,8 +40,33 @@
   100% { transform: translateX(0%); } 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1024px) {
   #prizes-heading {
     font-size: 3rem;
+  }
+  .small-prizes{
+    visibility: visible;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .small-text-prizes{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .bouncing-text-prizes{
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #prizes-heading {
+    font-size: 3rem;
+  }
+  .small-prizes{
+    visibility: hidden;
+  }
+  .bouncing-text-prizes{
+    visibility: visible;
   }
 }
