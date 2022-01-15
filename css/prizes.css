@@ -7,6 +7,7 @@
   min-height: 100vh;
   min-width: 100wh;
   background-size: cover;
+  text-align: center;
   background-repeat: none;
   overflow-x: hidden;
   position: relative;
@@ -39,8 +40,16 @@
   100% { transform: translateX(0%); } 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 900px) {
   #prizes-heading {
     font-size: 3rem;
+    margin-left: 1%;
+    margin-bottom: 12rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #prizes-heading {
+    font-size: 4.5rem;
   }
 }
